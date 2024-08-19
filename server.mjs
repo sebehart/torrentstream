@@ -1,8 +1,10 @@
+// Use import instead of require for ES modules
 import WebTorrent from 'webtorrent-hybrid';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+// ES modules do not have __dirname and __filename by default, so you need to define them
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
