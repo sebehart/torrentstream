@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.1",
-    "webtorrent-hybrid": "^1.0.0"
-  }
+  "webtorrent": "^1.0.0",  // Replace with a specific version
+  "express": "^4.18.1"
+}
 }
